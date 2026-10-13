@@ -1,0 +1,41 @@
+{
+  "muestra": 120,
+  "buenas": 120,
+  "sli": 1.0,
+  "slo": 0.99,
+  "umbral_ms": 200,
+  "p95_ms": 121,
+  "presupuesto_errores_solicitudes": 1.2,
+  "consumo_errores_solicitudes": 0,
+  "cumple_slo": true,
+  "anomalias_ml": 3,
+  "tasa_anomalias": 0.025,
+  "ejemplos_trazas_anomalas": [
+    {
+      "trace_id": "0000000000000000000000000280dea1",
+      "latency_ms": 48,
+      "status_code": 200
+    },
+    {
+      "trace_id": "0000000000000000000000000280deb6",
+      "latency_ms": 137,
+      "status_code": 200
+    },
+    {
+      "trace_id": "0000000000000000000000000280dec8",
+      "latency_ms": 137,
+      "status_code": 200
+    }
+  ],
+  "eventos_auditoria_simulados": 0,
+  "actor_evento_auditoria": null,
+  "auditoria_esta_autorizada": null,
+  "incidente": {
+    "abrir": false,
+    "severidad": "sin-incidente",
+    "estado": "no-aplica",
+    "contencion_automatica": false
+  },
+  "mttd": "No medido: detección por lote, no alerta en tiempo real",
+  "mttr": "No medido: no se ejecutó recuperación real"
+}
