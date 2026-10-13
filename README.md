@@ -1,8 +1,5 @@
 # Laboratorio gratuito: Observabilidad, SRE y AIOps
 
-**Universidad Distrital Francisco José de Caldas — Facultad de Ingeniería.**
-Material complementario del taller guiado en Word. No depende de Microsoft Sentinel, Azure, licencias, tarjetas de crédito ni APIs de IA generativa.
-
 ## Requisitos
 - Python 3.11+ e Internet solamente para descargar `scikit-learn` o ejecutar GitHub Actions.
 - Cuenta gratuita de GitHub para la fase CI. Repositorio público **solo con datos sintéticos**; en un repositorio privado aplican las cuotas del plan.
@@ -34,7 +31,7 @@ El último comando está **diseñado para devolver código 2** cuando el escenar
 
 ## GitHub Actions (interfaz web)
 1. Crear un repositorio nuevo en GitHub, público únicamente por tratarse de datos fabricados. Seleccionar rama `main`.
-2. Subir **todo el contenido de esta carpeta** conservando la estructura `.github/workflows/observabilidad.yml` (la carpeta oculta puede requerir activar mostrar ocultos).
+2. Subir **todo el contenido** conservando la estructura `.github/workflows/observabilidad.yml` (la carpeta oculta puede requerir activar mostrar ocultos).
 3. Abrir `Actions`, habilitar acciones cuando se solicite y elegir `Observabilidad SRE y AIOps - laboratorio`.
 4. Seleccionar `Run workflow` → `escenario=normal`, esperar job exitoso. Repetir `escenario=degradado`.
 5. Revisar `Summary` y el archivo de evidencias en la sección `Artifacts` de cada ejecución.
